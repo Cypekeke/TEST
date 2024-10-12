@@ -3,18 +3,15 @@ public class ArithmeticOperations {
             int a = 5;
             int b = 6;
             int c= a + b;
-            int d= a - b;
-            int e= a * b;
 
-            System.out.println( a + " + " + b + " = " + c);
-            System.out.println( a + " - " + b + " = " + d);
-            System.out.println( a + " * " + b + " - " + e);
-
-            System.out.println(a);
-            System.out.println(a++);
-            System.out.println(a);
-            System.out.println(++a);
-            System.out.println(++a);
+            boolean t = true;
+            boolean f = false;
+            System.out.println(t && f);
+            System.out.println(t || f);
+            System.out.println(t && t);
+            System.out.println(t || t);
+            System.out.println(f && f);
+            System.out.println(f || f);
 
         }
     }
