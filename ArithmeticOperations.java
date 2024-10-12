@@ -14,6 +14,7 @@ public class ArithmeticOperations {
             System.out.println(a++);
             System.out.println(a);
             System.out.println(++a);
+            System.out.println(++a);
 
         }
     }
